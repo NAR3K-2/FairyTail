@@ -1,0 +1,58 @@
+package nar3k.FairyTail;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.Item;
+
+@Mod(modid = "ft", name = "Fairy Tail", version = "1.0")
+public class FairyTail {
+	
+	public static Item itemBookOfGuilds;
+	public static Item itemExplosiveLacrima;
+	public static Item itemMusicaSword;
+	public static Item itemGateOfTheWaterBearerKey;
+	public static Item itemElectricLacrima;
+	public static Block blockExplosiveLacrima;
+	
+	@EventHandler 
+	public void preInit(FMLPreInitializationEvent event) {
+		//Item/Block init and registering
+		//config handling
+		
+		itemBookOfGuilds = new ItemBookOfGuilds().setUnlocalizedName("itemBookOfGuilds").setTextureName("ft:Book Of Guilds");
+		GameRegistry.registerItem(itemBookOfGuilds, itemBookOfGuilds.getUnlocalizedName().substring(5));
+		
+		itemExplosiveLacrima = new ItemExplosiveLacrima().setUnlocalizedName("itemExplosiveLacrima").setTextureName("ft:Explosive Lacrima");
+		blockExplosiveLacrima = new BlockExplosiveLacrima(Material.tnt).setBlockName("BlockExplosiveLacrima").setBlockTextureName("ft:Explosive Lacrima");
+		
+		GameRegistry.registerItem(itemExplosiveLacrima, itemExplosiveLacrima.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blockExplosiveLacrima, blockExplosiveLacrima.getUnlocalizedName().substring(5));
+		System.out.println(blockExplosiveLacrima.getUnlocalizedName().substring(5));
+		
+		itemMusicaSword = new ItemMusicaSword().setUnlocalizedName("itemMusicaSword").setTextureName("ft:Musica Sword");
+		GameRegistry.registerItem(itemMusicaSword, itemMusicaSword.getUnlocalizedName().substring(5));
+		
+		itemGateOfTheWaterBearerKey = new ItemGateOfTheWaterBearerKey().setUnlocalizedName("itemGateOfTheWaterBearerKey").setTextureName("ft:Gate Of The Water Bearer Key");
+		GameRegistry.registerItem(itemGateOfTheWaterBearerKey, itemGateOfTheWaterBearerKey.getUnlocalizedName().substring(5));
+		
+		itemElectricLacrima = new ItemElectricLacrima().setUnlocalizedName("itemElectricLacrima").setTextureName("ft:Electric Lacrima");
+		GameRegistry.registerItem(itemElectricLacrima, itemElectricLacrima.getUnlocalizedName().substring(5));
+		
+	}
+	
+	@EventHandler
+	public void init(FMLInitializationEvent event) {
+		//Proxy, TileEntity, entity, GUI, and Packet Registering
+	}
+	
+	@EventHandler
+	public void postInit(FMLPostInitializationEvent event) {
+		
+	}
+}

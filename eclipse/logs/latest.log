@@ -1,0 +1,39 @@
+[15:19:00] [main/INFO]: Setting user: Player182
+[15:19:03] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:19:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fairy Tail
+[15:19:22] [Sound Library Loader/INFO]: Sound engine started
+[15:19:24] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[15:19:24] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[15:19:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Fairy Tail
+[15:19:25] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:19:25] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[15:19:26] [Sound Library Loader/INFO]: Sound engine started
+[15:20:06] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[15:20:06] [Server thread/INFO]: Generating keypair
+[15:20:07] [Server thread/INFO]: Preparing start region for level 0
+[15:20:08] [Server thread/INFO]: Preparing spawn area: 6%
+[15:20:09] [Server thread/INFO]: Preparing spawn area: 26%
+[15:20:10] [Server thread/INFO]: Preparing spawn area: 98%
+[15:20:11] [Server thread/INFO]: Changing view distance to 12, from 10
+[15:20:13] [Server thread/INFO]: Player182[local:E:8c4daed2] logged in with entity id 298 at (-251.5104227397971, 73.0, 285.38755538693397)
+[15:20:13] [Server thread/INFO]: Player182 joined the game
+[15:20:14] [Server thread/INFO]: Saving and pausing game...
+[15:20:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:20:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:20:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:20:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3804ms behind, skipping 76 tick(s)
+[15:20:22] [Server thread/INFO]: Player182 has just earned the achievement [Taking Inventory]
+[15:20:22] [Client thread/INFO]: [CHAT] Player182 has just earned the achievement [Taking Inventory]
+[15:20:25] [Server thread/INFO]: [Player182: Set own game mode to Creative Mode]
+[15:20:26] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[15:21:06] [Client thread/INFO]: Stopping!
+[15:21:06] [Server thread/INFO]: Stopping server
+[15:21:06] [Server thread/INFO]: Saving players
+[15:21:06] [Server thread/INFO]: Saving worlds
+[15:21:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:21:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:21:07] [Client Shutdown Thread/INFO]: Stopping server
+[15:21:07] [Client Shutdown Thread/INFO]: Saving players
+[15:21:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:21:07] [Client Shutdown Thread/INFO]: Saving worlds
+[15:21:07] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Overworld

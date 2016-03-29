@@ -1,0 +1,8 @@
+package nar3k.mymod;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = "mm", name = "mymod", version = "1.0")
+public class mymod {
+
+}

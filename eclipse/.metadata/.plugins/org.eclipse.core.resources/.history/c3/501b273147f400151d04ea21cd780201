@@ -1,0 +1,8 @@
+package nar3k.FairyTail;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = "ft", name = "Fairy Tail", version = "1.0")
+public class FairyTail {
+
+}

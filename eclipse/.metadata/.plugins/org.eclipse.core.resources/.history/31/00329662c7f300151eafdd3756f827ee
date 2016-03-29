@@ -1,0 +1,33 @@
+package nar3k.mymod;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.item.Item;
+
+@Mod(modid = "mm", name = "mymod", version = "1.0")
+public class mymod {
+	
+	public static Item itemTable;
+	
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+		//Item/Block init and registering
+		//config handling
+		itemTable = new ItemTable().setUnlocalizedName("itemTable"); 
+		GameRegistry.registerItem(itemTable, itemTable.getUnlocalizedName().substring(5));
+	}
+	
+	@EventHandler
+	public void init(FMLInitializationEvent event) {
+		//Proxy, TileEntitiy, entity, GUI and Packet Registering
+	}
+	
+	@EventHandler
+	public void postInit(FMLPostInitializationEvent event) {
+		
+	}
+}
